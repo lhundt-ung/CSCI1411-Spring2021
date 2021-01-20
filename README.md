@@ -9,7 +9,7 @@ Throughout the semester, assignment and lab starter code will be posted inside t
 3. Clone Repository
 
 ```powershell
-git clone https://github.com/lhundt-ung/CS1411-Spring2021/
+git clone https://github.com/lhundt-ung/CSCI1411-Spring2021/
 ```
 
 ## Getting the latest copy
