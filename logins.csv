@@ -1,0 +1,297 @@
+#TYPE System.Diagnostics.EventLogEntry#Security/Microsoft-Windows-Security-Auditing/4624
+"EventID","MachineName","Data","Index","Category","CategoryNumber","EntryType","Message","Source","ReplacementStrings","InstanceId","TimeGenerated","TimeWritten","UserName","Site","Container"
+"4624","WIN-ER1KGUHTU3Q","System.Byte[]","663","(12544)","12544","SuccessAudit","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-ER1KGUHTU3Q$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-21-3031560066-1206640096-2513188867-500
+	Account Name:		Administrator
+	Account Domain:		WIN-ER1KGUHTU3Q
+	Logon ID:		0x234c8
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x398
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	WIN-ER1KGUHTU3Q
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","Microsoft-Windows-Security-Auditing","System.String[]","4624","1/23/2021 3:12:01 PM","1/23/2021 3:12:01 PM",,,
+"4624","WIN-ER1KGUHTU3Q","System.Byte[]","590","(12544)","12544","SuccessAudit","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-ER1KGUHTU3Q$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-21-3031560066-1206640096-2513188867-500
+	Account Name:		Administrator
+	Account Domain:		WIN-ER1KGUHTU3Q
+	Logon ID:		0x21705
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x40c
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	WIN-ER1KGUHTU3Q
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","Microsoft-Windows-Security-Auditing","System.String[]","4624","1/23/2021 2:56:59 PM","1/23/2021 2:56:59 PM",,,
+"4624","WIN-ER1KGUHTU3Q","System.Byte[]","514","(12544)","12544","SuccessAudit","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-ER1KGUHTU3Q$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-21-3031560066-1206640096-2513188867-500
+	Account Name:		Administrator
+	Account Domain:		WIN-ER1KGUHTU3Q
+	Logon ID:		0x22f25
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x44c
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	WIN-ER1KGUHTU3Q
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","Microsoft-Windows-Security-Auditing","System.String[]","4624","1/23/2021 2:55:04 PM","1/23/2021 2:55:04 PM",,,
+"4624","WIN-ER1KGUHTU3Q","System.Byte[]","424","(12544)","12544","SuccessAudit","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-ER1KGUHTU3Q$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-21-3031560066-1206640096-2513188867-500
+	Account Name:		Administrator
+	Account Domain:		WIN-ER1KGUHTU3Q
+	Logon ID:		0x2535e
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x43c
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	WIN-ER1KGUHTU3Q
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","Microsoft-Windows-Security-Auditing","System.String[]","4624","1/23/2021 1:16:57 PM","1/23/2021 1:16:57 PM",,,
+"4624","WIN-ER1KGUHTU3Q","System.Byte[]","298","(12544)","12544","SuccessAudit","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		WIN-ER1KGUHTU3Q$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		2
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-21-3031560066-1206640096-2513188867-500
+	Account Name:		Administrator
+	Account Domain:		WIN-ER1KGUHTU3Q
+	Logon ID:		0xaf0b5
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x368
+	Process Name:		C:\Windows\System32\svchost.exe
+
+Network Information:
+	Workstation Name:	WIN-ER1KGUHTU3Q
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32 
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.","Microsoft-Windows-Security-Auditing","System.String[]","4624","1/23/2021 1:14:25 PM","1/23/2021 1:14:25 PM",,,
