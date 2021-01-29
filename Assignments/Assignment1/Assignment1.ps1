@@ -18,7 +18,7 @@
 
 
 
-### 2. Now, add $i and $x together and store the value in another variable $y. Then output $z to the console.
+### 2. Now, add $i and $x together and store the value in another variable $y. Then output $y to the console.
 ## YOUR CODE HERE
 
 
