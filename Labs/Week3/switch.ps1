@@ -1,8 +1,8 @@
 ﻿#Switch Operator
 
-$a = Read-Host -Prompt 'Enter a number'
+$userNumber = Read-Host -Prompt 'Enter a number'
 
-Switch ($a)
+Switch ($userNumber)
 {
     1 { “1 - Match”}
     2 { “2 - Match”}
