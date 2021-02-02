@@ -3,11 +3,13 @@ Get-Process
 
 $processes = Get-Process
 
-
+$processes.GetType()
 
 $processes | measure
 $processes | Get-Member
 
+Write-Host $processes.StartTime $processes.Name
+
 $processes[0] | fl *
 
-Get-Process | Where-Object {$_.PriorityClass -eq "Normal"}
+$processes | Where-Object {$_.PriorityClass -eq "Normal"}

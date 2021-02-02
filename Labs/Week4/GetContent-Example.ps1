@@ -1,5 +1,5 @@
 #Create example data file
-1..100 | ForEach-Object { Add-Content -Path .\LineNumbers.txt -Value "This is line $_" }
+1..100 | ForEach-Object { Add-Content -Path LineNumbers.txt -Value "This is line $_" }
 
 
 # Verify file
@@ -13,7 +13,7 @@ Get-Content -Path .\LineNumbers.txt -TotalCount 5
 (Get-Content -Path .\LineNumbers.txt -TotalCount 25)[0]
 
 #Get first 25 lines, then what?
-(Get-Content -Path .\LineNumbers.txt -TotalCount 25)[0]
+(Get-Content -Path .\LineNumbers.txt -TotalCount 25)[-1]
 
 # What does tail retrieve
 Get-Content -Path .\LineNumbers.txt -Tail 5

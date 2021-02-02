@@ -22,5 +22,5 @@ function ConvertFahrenheitToCelsius($fahrenheit)
 $fahrenheit = Read-Host 'Input a temperature in Fahrenheit'
 
 
-$result =ConvertFahrenheitToCelsius($fahrenheit)
+$result =ConvertFahrenheitToCelsius($fahrenht)
 Write-Host "$result Celsius"

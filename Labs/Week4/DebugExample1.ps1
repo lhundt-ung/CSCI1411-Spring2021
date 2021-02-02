@@ -66,7 +66,7 @@ $availabledrives = @( )
 # Display list of drive letters in use
 if ( $Used -or -not $Available ) {
 	if ( $V -or -not ( $Available -xor $Used ) ) {
-		Write-Host "Drive Letters In Use:    -NoNewline
+		Write-Host "Drive Letters In Use:   " -NoNewline
 	}
 	$useddrives | ForEach-Object { Write-Host " $_" -NoNewline; Write-Host ":" -NoNewline }
 	Write-Host

@@ -14,6 +14,8 @@ $csv | Get-Member -MemberType NoteProperty
 $csv.email
 $csv[0].email
 
+$csv.id
+
 
 
 
