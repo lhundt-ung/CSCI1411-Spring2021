@@ -16,7 +16,7 @@ git clone https://github.com/lhundt-ung/CSCI1411-Spring2021/
 
 1. Launch your VM in Oracle Virtual Box
 2. Open a terminal window or IDE (Powershell ISE, Visual Studio Code)
-3. Change Directory (cd) to base of the repository folder (i.e c:\users\cs1411\Documents\Github\CS1411-Spring2021)
+3. Change Directory (cd) to base of the repository folder (i.e c:\users\administrator\CS1411-Spring2021)
 3. Pull (Sync) Repository
 
 ```powershell
