@@ -16,4 +16,4 @@ $data.GetType()
 $data.count
 
 $data[0]
-$data[0] -match '\d\d\d-\d\d-\d\d\d\d'
+$data -match '\d\d\d-\d\d-\d\d\d\d'

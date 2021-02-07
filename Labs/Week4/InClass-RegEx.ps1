@@ -12,8 +12,5 @@ Select-String -Path .\*.* -Pattern "function" -CaseSensitive
 
 
 #Simple Equity and Advanced Match operations
-(5+5) -eq (7+4)
+(5+5) -eq (7+3)
 
-
-'123-45-6789' -match '\d\d\d-\d\d-\d\d\d\d'
-'123-45-6789' -match '\d{3}-\d{2}-\d{4}'
