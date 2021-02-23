@@ -2,7 +2,7 @@
 
 function localmessage
 {
-	MESSAGE="Hi there, we're inside the function"
+	local MESSAGE="Hi there, we're inside the function"
 	#MESSAGE="Hi there, we're inside the function"
 	echo $MESSAGE
 }

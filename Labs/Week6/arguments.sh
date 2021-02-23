@@ -8,6 +8,7 @@ else
     {
         echo $1
     }
+    
     localmessage "There!"
     localmessage $2
     echo "You have passed $# arguments"
