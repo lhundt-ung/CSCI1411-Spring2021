@@ -11,7 +11,7 @@ Metasploitable VM - https://ungprod-my.sharepoint.com/:u:/g/personal/lhundt_ung_
 
 2. Use of nmap & metasploit
 
-Visit https://github.com/lhundt-ung/CS1411-Spring2020  to obtain directions on how to sync the base assignment file to your lab machine.
+Visit https://github.com/lhundt-ung/CSCI1411-Spring2021  to obtain directions on how to sync the base assignment file to your lab machine.
 
 Deliverable: 2 Files -> assignment5.sh and SecurityReport-<IP Address>.pdf
 Upload both files to D2L.
