@@ -1,0 +1,6 @@
+#Encryption
+
+message = input("What is the secret message? ")
+
+for letter in message:
+    print(letter)

@@ -13,17 +13,3 @@ multiply(3, 5, 10, 6)
 
 
 
-'''
-# kwargs Examples
-def print_kwargs(**kwargs):
-    print(kwargs)
-
-print_kwargs()
-
-
-
-def print_values(**kwargs):
-    for key, value in kwargs.items():
-        print("{} {} is in CS1411".format(key, value))
-
-print_values(Student="Sammy")'''
