@@ -5,7 +5,7 @@ T1 = ()
 T1 = ('January','February','March','April','May','June', \
 'July','August','September','October','November')
 print(T1)
-T1.append('December')
+#T1.append('December')
 
 
 
@@ -22,7 +22,7 @@ D1 = {"Months":T1}
 
 # Why use Tuples?
 # Answer. Speed!
-#python -mtimeit "['January','February','March','April','May','June', \
-#'July','August','September','October','November']"
-#python -mtimeit "('January','February','March','April','May','June', \
-#'July','August','September','October','November')"
+python -mtimeit "['January','February','March','April','May','June', \
+'July','August','September','October','November']"
+python -mtimeit "('January','February','March','April','May','June', \
+'July','August','September','October','November')"
