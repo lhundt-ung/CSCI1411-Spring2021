@@ -10,7 +10,7 @@ It’s very common practice to combine multiple tool sets to get to your end goa
 
 [Azure Maps API](https://docs.microsoft.com/en-us/rest/api/maps/geolocation/getiptolocationpreview)– In order to translate an IP address to a physical world country, we will rely on a cloud service to perform this task for us. This service will return the ISO country code for the provided IP address. For example, (40.76.71.232 à US)
 
- ![Example Map](MapExample.jpg "Example Map")
+ ![Example Map](MapExample.JPG "Example Map")
 
 After the map is generated, you should be able to answer the following questions…
 
