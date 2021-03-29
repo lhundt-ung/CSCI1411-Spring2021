@@ -42,13 +42,16 @@ file.close()
 
 
 # 4. How many combinations would we have for two letter salts?
-
+11,881,376 lines
 
 # 5. What would the rainbow file size be?
+#300 KB ~ 15756 lines
 
+11881376/15756 = 754
+754*300KB = 226200KB = ~200MB
 
 # 6. What would the rainbow file size be 
 # using lowercase and Uppercase combinations?
-
+~7.64GB
 
 
