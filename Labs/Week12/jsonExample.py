@@ -18,7 +18,15 @@ jsonDictionary = json.loads(jsonFile)
 # the result is a Python dictionary:
 print(type(jsonDictionary))
 
-#print(jsonDictionary['cars']['car2'])
+print(jsonDictionary['name'])
+
+
+
+
+
+
+
+
 
 for car in jsonDictionary['cars']:
     print(jsonDictionary['cars'][car])

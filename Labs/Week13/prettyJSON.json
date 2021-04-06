@@ -1,0 +1,12 @@
+#Pretty JSON 
+
+{
+  "scan_id": "8ed9abce1f43d25e4876fd7c8465be2827df919b46d570c9deda7327ccae42b4-1586804978",
+  "sha1": "b6158b826cefec92dfd050c92a11bfe81cf3c8e5",
+  "resource": "8ed9abce1f43d25e4876fd7c8465be2827df919b46d570c9deda7327ccae42b4",
+  "response_code": 1,
+  "sha256": "8ed9abce1f43d25e4876fd7c8465be2827df919b46d570c9deda7327ccae42b4",
+  "permalink": "https://www.virustotal.com/file/8ed9abce1f43d25e4876fd7c8465be2827df919b46d570c9deda7327ccae42b4/analysis/1586804978/",
+  "md5": "d9bb4ccef09d31c09d4650555025e03d",
+  "verbose_msg": "Scan request successfully queued, come back later for the report"
+}
