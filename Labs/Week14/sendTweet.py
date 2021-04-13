@@ -7,8 +7,8 @@ import tweepy
 
 
 def post(message):
-    auth = tweepy.OAuthHandler('qzE5AjmT7LybYRmKAiLKW4onq', '77GKy01IRUmn5hFrQNsOeJ1SUdgftC3hOVdqOxdqiQG3E4rH8T')
-    auth.set_access_token('1378840120195960832-723BD3N6Xeix8KoprkDEdnp9a9fAXh','eLAcI3pmhCMzE6FLkXLpQiadBGArND54fiz8CenNS9LGw')
+    auth = tweepy.OAuthHandler('', '')
+    auth.set_access_token('','')
     twitter = tweepy.API(auth)
     twitter.update_status(message)
 

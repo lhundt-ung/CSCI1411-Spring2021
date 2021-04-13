@@ -17,7 +17,9 @@ def getGACovidCases():
 
 def main():
     tweet = getGACovidCases()
+    print(tweet)
     #How could we call our tweet function from another script?
+    sendTweet.post(tweet)
 
 
 if __name__ == "__main__":

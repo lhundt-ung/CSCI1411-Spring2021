@@ -4,16 +4,20 @@ import json
 import re
 
 #Token for auth to twitter
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAAEJOgEAAAAA28WyLP7p1pMGeBWhnsovZZL4wlQ%3D7cUqpoytytSDAFXH1EEWdnA2khSLIvg0EIx9h0dgNMj0YtAXkQ"
+bearer_token = ""
 
 #Can we extend this to take an argument that generalizes the twitter account?
-def create_url():
-    query = "from:UNG_News"
+def create_url(twitter_handle):
+    query = "from:"+twitter_handle
     tweet_fields = "tweet.fields=author_id"
     url = "https://api.twitter.com/2/tweets/search/recent?query={}&{}".format(
         query, tweet_fields
     )
+    #url = "https://api.twitter.com/2/tweets/search/recent?query="+query+"&"+tweet_fields
+
     return url
+
+
 
 def create_headers(bearer_token):
     headers = {"Authorization": "Bearer {}".format(bearer_token)}
@@ -42,16 +46,16 @@ def displayHashtags(json):
 
 def main():
     #Extend Create URL method to search for user
-    url = create_url()
-    
+    url = create_url("UNG_News")
+
     print(url)
     headers = create_headers(bearer_token)
     json_response = connect_to_endpoint(url, headers)
     print(json.dumps(json_response, indent=4, sort_keys=True))
 
     #Write a function that only displays tweets
-    #displayTweets(json_response)
-    #displayHashtags(json_response)
+    displayTweets(json_response)
+    displayHashtags(json_response)
 
 
 if __name__ == "__main__":

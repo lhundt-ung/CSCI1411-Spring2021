@@ -1,7 +1,7 @@
 import re
 
 #Regex to find #hashtags
-regex = 
+regex = r"\B#\w*[a-zA-Z]+\w*"
 
 test_str = ("UNG staff and alumni are working to prevent the spread of COVID-19. As contact tracers and case investigators, they monitor and track people who have been exposed to or tested positive for COVID-19.\n"
 	"#UNGleads #COVID-19 #UNGalumni #UNGyoungalumni\n"
