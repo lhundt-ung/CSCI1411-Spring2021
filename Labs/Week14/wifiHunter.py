@@ -8,7 +8,7 @@ import requests
 import json
 from requests.auth import HTTPBasicAuth
 
-apiAuth = ('AIDa0f6c1a9e29943ae33dc3639716dd807','b99e209f994a9405867f04a8f044e6f1')
+apiAuth = (key,token)
 
 #Example API query: https://api.wigle.net/api/v2/network/detail?netid=00%3A11%3A50%3A24%3A68%3A7F
 
