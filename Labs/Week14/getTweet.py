@@ -4,7 +4,7 @@ import json
 import re
 
 #Token for auth to twitter
-bearer_token = ""
+bearer_token = "AAAAAAAAAAAAAAAAAAAAAAEJOgEAAAAApAt3xLD4dZZW6XVb3zo2Rm5Hvhs%3DH9TrBKJsDNXo21MxMyU9r1nBjoqBGRVnDCt1LFMftaJFHkjYiP"
 
 #Can we extend this to take an argument that generalizes the twitter account?
 def create_url(twitter_handle):
@@ -43,10 +43,20 @@ def displayHashtags(json):
         print(hashtags)
         print("------------------------")
     
+def getLocation(acct):
+    query = "from:"+acct
+    tweet_fields = "tweet.fields=geo"
+    url = "https://api.twitter.com/2/tweets/search/recent?query={}&{}".format(
+        query, tweet_fields
+    )
+    #url = "https://api.twitter.com/2/tweets/search/recent?query="+query+"&"+tweet_fields
+
+    return url
 
 def main():
     #Extend Create URL method to search for user
-    url = create_url("UNG_News")
+    #url = create_url("UNG_News")
+    url=getLocation('socialbearing')
 
     print(url)
     headers = create_headers(bearer_token)
@@ -54,8 +64,8 @@ def main():
     print(json.dumps(json_response, indent=4, sort_keys=True))
 
     #Write a function that only displays tweets
-    displayTweets(json_response)
-    displayHashtags(json_response)
+    #displayTweets(json_response)
+    #displayHashtags(json_response)
 
 
 if __name__ == "__main__":
