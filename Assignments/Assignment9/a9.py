@@ -12,7 +12,7 @@ import packet as Packet
 
 
 # 2. Now that traffic is flowing through the firewall, the security ops team
-# has identified suspicious RDP traffic from 206.14.8.100 to 202.14.6.223. 
+# has identified suspicious RDP traffic from 206.14.8.100 to 202.13.6.223. 
 # Add a new firewall rule to your firewall to block the traffic.
 # You may need to look up the port number for RDP.
 # Refer to the firewall class for examples to add a rule.
